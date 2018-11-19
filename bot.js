@@ -20,7 +20,7 @@ acc1.on('ready', () => {
 });
 acc1.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    if(message.content.split(' ').slice(1).join(' ')[0] == prefix.acc1 + 'say') {
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc1 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
@@ -38,7 +38,7 @@ acc2.on('ready', () => {
 });
 acc2.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    if(message.content.split(' ').slice(1).join(' ')[0] == prefix.acc2 + 'say') {
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc2 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
@@ -56,7 +56,7 @@ acc3.on('ready', () => {
 });
 acc3.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    if(message.content.split(' ').slice(1).join(' ')[0] == prefix.acc3 + 'say') {
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc3 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
@@ -74,7 +74,7 @@ acc4.on('ready', () => {
 });
 acc4.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    if(message.content.split(' ').slice(1).join(' ')[0] == prefix.acc4 + 'say') {
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc4 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
@@ -92,7 +92,7 @@ acc5.on('ready', () => {
 });
 acc5.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    if(message.content.split(' ').slice(1).join(' ')[0] == prefix.acc5 + 'say') {
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc5 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
