@@ -14,6 +14,7 @@ const prefix = {
 const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
+    acc1.channels.get(channel).send('#daily');
     setInterval(() => {
        acc1.channels.get(channel).send('#daily');
     }, 86403000);
@@ -32,6 +33,7 @@ acc1.login(process.env.ACC1_TOKEN);
 const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
+    acc2.channels.get(channel).send('#daily');
     setInterval(() => {
        acc2.channels.get(channel).send('#daily');
     }, 86403000);
@@ -50,6 +52,7 @@ acc2.login(process.env.ACC2_TOKEN);
 const acc3 = new Discord.Client();
 acc3.on('ready', () => {
     console.log('Account 3 Ready!');
+    acc3.channels.get(channel).send('#daily');
     setInterval(() => {
        acc3.channels.get(channel).send('#daily');
     }, 86403000);
@@ -68,6 +71,7 @@ acc3.login(process.env.ACC3_TOKEN);
 const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
+    acc4.channels.get(channel).send('#daily');
     setInterval(() => {
        acc4.channels.get(channel).send('#daily');
     }, 86403000);
@@ -86,6 +90,7 @@ acc4.login(process.env.ACC4_TOKEN);
 const acc5 = new Discord.Client();
 acc5.on('ready', () => {
     console.log('Account 5 Ready!');
+    acc5.channels.get(channel).send('#daily');
     setInterval(() => {
        acc5.channels.get(channel).send('#daily');
     }, 86403000);
