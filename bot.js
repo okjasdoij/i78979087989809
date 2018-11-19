@@ -11,7 +11,7 @@ const prefix = {
     acc5: '5'
 };
 
-const acc1 = new Discord.RichEmbed();
+const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
     setInterval(() => {
@@ -29,7 +29,7 @@ acc1.login(process.env.ACC1_TOKEN);
 
 
 
-const acc2 = new Discord.RichEmbed();
+const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
     setInterval(() => {
@@ -47,7 +47,7 @@ acc2.login(process.env.ACC2_TOKEN);
 
 
 
-const acc3 = new Discord.RichEmbed();
+const acc3 = new Discord.Client();
 acc3.on('ready', () => {
     console.log('Account 3 Ready!');
     setInterval(() => {
@@ -65,7 +65,7 @@ acc3.login(process.env.ACC3_TOKEN);
 
 
 
-const acc4 = new Discord.RichEmbed();
+const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
     setInterval(() => {
@@ -83,7 +83,7 @@ acc4.login(process.env.ACC4_TOKEN);
 
 
 
-const acc5 = new Discord.RichEmbed();
+const acc5 = new Discord.Client();
 acc5.on('ready', () => {
     console.log('Account 5 Ready!');
     setInterval(() => {
