@@ -8,7 +8,12 @@ const prefix = {
     acc2: '2',
     acc3: '3',
     acc4: '4',
-    acc5: '5'
+    acc5: '5',
+    acc6: '6',
+    acc7: '7',
+    acc8: '8',
+    acc9: '9',
+    acc10: '10'
 };
 
 const acc1 = new Discord.Client();
@@ -103,3 +108,98 @@ acc5.on('message', message => {
     }
 });
 acc5.login(process.env.ACC5_TOKEN);
+
+
+
+const acc6 = new Discord.Client();
+acc6.on('ready', () => {
+    console.log('Account 6 Ready!');
+    acc6.channels.get(channel).send('#daily');
+    setInterval(() => {
+       acc6.channels.get(channel).send('#daily');
+    }, 86403000);
+});
+acc6.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc6 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc6.login(process.env.ACC6_TOKEN);
+
+
+
+const acc7 = new Discord.Client();
+acc7.on('ready', () => {
+    console.log('Account 7 Ready!');
+    acc7.channels.get(channel).send('#daily');
+    setInterval(() => {
+       acc7.channels.get(channel).send('#daily');
+    }, 86403000);
+});
+acc7.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc7 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc7.login(process.env.ACC7_TOKEN);
+
+
+
+const acc8 = new Discord.Client();
+acc8.on('ready', () => {
+    console.log('Account 8 Ready!');
+    acc8.channels.get(channel).send('#daily');
+    setInterval(() => {
+       acc8.channels.get(channel).send('#daily');
+    }, 86403000);
+});
+acc8.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc8 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc8.login(process.env.ACC8_TOKEN);
+
+
+
+const acc9 = new Discord.Client();
+acc9.on('ready', () => {
+    console.log('Account 9 Ready!');
+    acc9.channels.get(channel).send('#daily');
+    setInterval(() => {
+       acc9.channels.get(channel).send('#daily');
+    }, 86403000);
+});
+acc9.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc9 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc9.login(process.env.ACC9_TOKEN);
+
+
+
+const acc10 = new Discord.Client();
+acc10.on('ready', () => {
+    console.log('Account 10 Ready!');
+    acc10.channels.get(channel).send('#daily');
+    setInterval(() => {
+       acc10.channels.get(channel).send('#daily');
+    }, 86403000);
+});
+acc10.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc10 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc10.login(process.env.ACC10_TOKEN);
