@@ -21,6 +21,9 @@ acc1.on('ready', () => {
     console.log('Account 1 Ready!');
     acc1.channels.get(channel).send('#daily');
     setInterval(() => {
+        acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
+    setInterval(() => {
        acc1.channels.get(channel).send('#daily');
     }, 86403000);
 });
@@ -39,6 +42,9 @@ const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
     acc2.channels.get(channel).send('#daily');
+    setInterval(() => {
+        acc2.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
     setInterval(() => {
        acc2.channels.get(channel).send('#daily');
     }, 86403000);
@@ -59,6 +65,9 @@ acc3.on('ready', () => {
     console.log('Account 3 Ready!');
     acc3.channels.get(channel).send('#daily');
     setInterval(() => {
+        acc3.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
+    setInterval(() => {
        acc3.channels.get(channel).send('#daily');
     }, 86403000);
 });
@@ -77,6 +86,9 @@ const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
     acc4.channels.get(channel).send('#daily');
+    setInterval(() => {
+        acc4.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
     setInterval(() => {
        acc4.channels.get(channel).send('#daily');
     }, 86403000);
@@ -97,6 +109,9 @@ acc5.on('ready', () => {
     console.log('Account 5 Ready!');
     acc5.channels.get(channel).send('#daily');
     setInterval(() => {
+        acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
+    setInterval(() => {
        acc5.channels.get(channel).send('#daily');
     }, 86403000);
 });
@@ -115,6 +130,9 @@ const acc6 = new Discord.Client();
 acc6.on('ready', () => {
     console.log('Account 6 Ready!');
     acc6.channels.get(channel).send('#daily');
+    setInterval(() => {
+        acc6.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
     setInterval(() => {
        acc6.channels.get(channel).send('#daily');
     }, 86403000);
@@ -135,6 +153,9 @@ acc7.on('ready', () => {
     console.log('Account 7 Ready!');
     acc7.channels.get(channel).send('#daily');
     setInterval(() => {
+        acc7.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
+    setInterval(() => {
        acc7.channels.get(channel).send('#daily');
     }, 86403000);
 });
@@ -153,6 +174,9 @@ const acc8 = new Discord.Client();
 acc8.on('ready', () => {
     console.log('Account 8 Ready!');
     acc8.channels.get(channel).send('#daily');
+    setInterval(() => {
+        acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
     setInterval(() => {
        acc8.channels.get(channel).send('#daily');
     }, 86403000);
@@ -173,6 +197,9 @@ acc9.on('ready', () => {
     console.log('Account 9 Ready!');
     acc9.channels.get(channel).send('#daily');
     setInterval(() => {
+        acc9.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
+    setInterval(() => {
        acc9.channels.get(channel).send('#daily');
     }, 86403000);
 });
@@ -191,6 +218,9 @@ const acc10 = new Discord.Client();
 acc10.on('ready', () => {
     console.log('Account 10 Ready!');
     acc10.channels.get(channel).send('#daily');
+    setInterval(() => {
+        acc10.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 300);
     setInterval(() => {
        acc10.channels.get(channel).send('#daily');
     }, 86403000);
