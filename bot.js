@@ -33,6 +33,10 @@ acc1.on('message', message => {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
 });
 acc1.login(process.env.ACC1_TOKEN);
 
@@ -53,6 +57,10 @@ acc2.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc2 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
@@ -77,6 +85,10 @@ acc3.on('message', message => {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
 });
 acc3.login(process.env.ACC3_TOKEN);
 
@@ -97,6 +109,10 @@ acc4.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc4 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
@@ -121,6 +137,10 @@ acc5.on('message', message => {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
 });
 acc5.login(process.env.ACC5_TOKEN);
 
@@ -141,6 +161,10 @@ acc6.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc6 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
@@ -165,6 +189,10 @@ acc7.on('message', message => {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
 });
 acc7.login(process.env.ACC7_TOKEN);
 
@@ -185,6 +213,10 @@ acc8.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc8 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
@@ -209,6 +241,10 @@ acc9.on('message', message => {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
 });
 acc9.login(process.env.ACC9_TOKEN);
 
@@ -229,6 +265,10 @@ acc10.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc10 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
