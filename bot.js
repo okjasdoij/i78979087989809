@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const channel = '493482927649193994';
-const pepole = ['282350776456839169','346629187504832513','333683114461102090'];
+const pepole = ['282350776456839169','346629187504832513'];
 const prefix = {
     acc1: '1',
     acc2: '2',
@@ -423,3 +423,103 @@ acc16.on('message', message => {
     }
 });
 acc16.login(process.env.ACC16_TOKEN);
+
+
+
+const acc17 = new Discord.Client();
+acc17.on('ready', () => {
+    console.log('Account 17 Ready!');
+    setInterval(() => {
+        acc17.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 500);
+    setInterval(() => {
+       acc17.channels.find(c => c.id == channel).send('#daily');
+    }, 86403000);
+});
+acc17.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc17 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc17.login(process.env.ACC17_TOKEN);
+
+
+
+const acc18 = new Discord.Client();
+acc18.on('ready', () => {
+    console.log('Account 18 Ready!');
+    setInterval(() => {
+        acc18.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 500);
+    setInterval(() => {
+       acc18.channels.find(c => c.id == channel).send('#daily');
+    }, 86403000);
+});
+acc18.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc18 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc18.login(process.env.ACC18_TOKEN);
+
+
+
+const acc19 = new Discord.Client();
+acc19.on('ready', () => {
+    console.log('Account 19 Ready!');
+    setInterval(() => {
+        acc19.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 500);
+    setInterval(() => {
+       acc19.channels.find(c => c.id == channel).send('#daily');
+    }, 86403000);
+});
+acc19.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc19 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc19.login(process.env.ACC19_TOKEN);
+
+
+
+const acc20 = new Discord.Client();
+acc20.on('ready', () => {
+    console.log('Account 20 Ready!');
+    setInterval(() => {
+        acc20.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 500);
+    setInterval(() => {
+       acc20.channels.find(c => c.id == channel).send('#daily');
+    }, 86403000);
+});
+acc20.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc20 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc20.login(process.env.ACC20_TOKEN);
