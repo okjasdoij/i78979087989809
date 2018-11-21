@@ -304,7 +304,7 @@ acc11.login(process.env.ACC11_TOKEN);
 const acc12 = new Discord.Client();
 acc12.on('ready', () => {
     console.log('Account 12 Ready!');
-    setInterval(() => {
+    setInterval(spam => {
         acc12.guilds.find(g => g.id == '493482927649193994').channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
