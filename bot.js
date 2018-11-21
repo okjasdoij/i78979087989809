@@ -30,10 +30,10 @@ const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
     setInterval(() => {
-        acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc1.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc1.channels.get(channel).send('#daily');
+       acc1.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc1.on('message', message => {
@@ -55,10 +55,10 @@ const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
     setInterval(() => {
-        acc2.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc2.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc2.channels.get(channel).send('#daily');
+       acc2.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc2.on('message', message => {
@@ -80,10 +80,10 @@ const acc3 = new Discord.Client();
 acc3.on('ready', () => {
     console.log('Account 3 Ready!');
     setInterval(() => {
-        acc3.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc3.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc3.channels.get(channel).send('#daily');
+       acc3.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc3.on('message', message => {
@@ -105,10 +105,10 @@ const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
     setInterval(() => {
-        acc4.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc4.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc4.channels.get(channel).send('#daily');
+       acc4.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc4.on('message', message => {
@@ -130,10 +130,10 @@ const acc5 = new Discord.Client();
 acc5.on('ready', () => {
     console.log('Account 5 Ready!');
     setInterval(() => {
-        acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc1.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc5.channels.get(channel).send('#daily');
+       acc5.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc5.on('message', message => {
@@ -155,10 +155,10 @@ const acc6 = new Discord.Client();
 acc6.on('ready', () => {
     console.log('Account 6 Ready!');
     setInterval(() => {
-        acc6.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc6.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc6.channels.get(channel).send('#daily');
+       acc6.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc6.on('message', message => {
@@ -180,10 +180,10 @@ const acc7 = new Discord.Client();
 acc7.on('ready', () => {
     console.log('Account 7 Ready!');
     setInterval(() => {
-        acc7.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc7.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc7.channels.get(channel).send('#daily');
+       acc7.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc7.on('message', message => {
@@ -205,10 +205,10 @@ const acc8 = new Discord.Client();
 acc8.on('ready', () => {
     console.log('Account 8 Ready!');
     setInterval(() => {
-        acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc1.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc8.channels.get(channel).send('#daily');
+       acc8.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc8.on('message', message => {
@@ -230,10 +230,10 @@ const acc9 = new Discord.Client();
 acc9.on('ready', () => {
     console.log('Account 9 Ready!');
     setInterval(() => {
-        acc9.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc9.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc9.channels.get(channel).send('#daily');
+       acc9.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc9.on('message', message => {
@@ -255,10 +255,10 @@ const acc10 = new Discord.Client();
 acc10.on('ready', () => {
     console.log('Account 10 Ready!');
     setInterval(() => {
-        acc10.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc10.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc10.channels.get(channel).send('#daily');
+       acc10.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc10.on('message', message => {
@@ -280,10 +280,10 @@ const acc11 = new Discord.Client();
 acc11.on('ready', () => {
     console.log('Account 11 Ready!');
     setInterval(() => {
-        acc11.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc11.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc11.channels.get(channel).send('#daily');
+       acc11.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc11.on('message', message => {
@@ -305,10 +305,10 @@ const acc12 = new Discord.Client();
 acc12.on('ready', () => {
     console.log('Account 12 Ready!');
     setInterval(() => {
-        acc12.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc12.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc12.channels.get(channel).send('#daily');
+       acc12.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc12.on('message', message => {
@@ -330,10 +330,10 @@ const acc13 = new Discord.Client();
 acc13.on('ready', () => {
     console.log('Account 13 Ready!');
     setInterval(() => {
-        acc13.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc13.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc13.channels.get(channel).send('#daily');
+       acc13.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc13.on('message', message => {
@@ -355,10 +355,10 @@ const acc14 = new Discord.Client();
 acc14.on('ready', () => {
     console.log('Account 14 Ready!');
     setInterval(() => {
-        acc14.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc14.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc14.channels.get(channel).send('#daily');
+       acc14.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc14.on('message', message => {
@@ -380,10 +380,10 @@ const acc15 = new Discord.Client();
 acc15.on('ready', () => {
     console.log('Account 15 Ready!');
     setInterval(() => {
-        acc15.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc15.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc15.channels.get(channel).send('#daily');
+       acc15.channels.find(c => c.id == channel).send('#daily');
     }, 86403000);
 });
 acc15.on('message', message => {
