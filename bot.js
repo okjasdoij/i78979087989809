@@ -273,3 +273,28 @@ acc10.on('message', message => {
     }
 });
 acc10.login(process.env.ACC10_TOKEN);
+
+
+
+const acc11 = new Discord.Client();
+acc11.on('ready', () => {
+    console.log('Account 11 Ready!');
+    setInterval(() => {
+        acc11.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 500);
+    setInterval(() => {
+       acc11.channels.find(c => c.id == channel).send('#daily');
+    }, 86403000);
+});
+acc11.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc11 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc11.login(process.env.ACC11_TOKEN);
