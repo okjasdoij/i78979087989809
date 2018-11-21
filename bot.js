@@ -30,7 +30,7 @@ const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
     setInterval(() => {
-        acc1.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc1.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
        acc1.channels.find(c => c.id == channel).send('#daily');
@@ -298,3 +298,28 @@ acc11.on('message', message => {
     }
 });
 acc11.login(process.env.ACC11_TOKEN);
+
+
+
+const acc12 = new Discord.Client();
+acc12.on('ready', () => {
+    console.log('Account 12 Ready!');
+    setInterval(() => {
+        acc12.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+    }, 500);
+    setInterval(() => {
+       acc12.channels.find(c => c.id == channel).send('#daily');
+    }, 86403000);
+});
+acc12.on('message', message => {
+    if(!pepole.includes(message.author.id)) return;
+    if(message.content.toLowerCase().split(' ')[0] == prefix.acc12 + 'say') {
+        if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+    if(message.content.toLowerCase().split(' ')[0] == '!allsay') {
+        if(!message.content.split(' ').slice(1).join(' ')) return;
+        message.channel.send(message.content.split(' ').slice(1).join(' '));
+    }
+});
+acc12.login(process.env.ACC12_TOKEN);
