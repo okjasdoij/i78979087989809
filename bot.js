@@ -322,4 +322,4 @@ acc12.on('message', message => {
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
-acc12.login(process.env.ACC12_TOKEN);
+acc12.login(process.env.ACC13_TOKEN);
