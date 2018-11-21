@@ -1,6 +1,4 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
-
 const channel = '493482927649193994';
 const pepole = ['282350776456839169','346629187504832513'];
 const prefix = {
@@ -25,6 +23,8 @@ const prefix = {
     acc19: '19',
     acc20: '20'
 };
+
+
 
 const acc1 = new Discord.Client();
 acc1.on('ready', () => {
