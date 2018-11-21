@@ -32,7 +32,7 @@ acc1.on('ready', () => {
     acc1.channels.get(channel).send('#daily');
     setInterval(() => {
         acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc1.channels.get(channel).send('#daily');
     }, 86403000);
@@ -58,7 +58,7 @@ acc2.on('ready', () => {
     acc2.channels.get(channel).send('#daily');
     setInterval(() => {
         acc2.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc2.channels.get(channel).send('#daily');
     }, 86403000);
@@ -84,7 +84,7 @@ acc3.on('ready', () => {
     acc3.channels.get(channel).send('#daily');
     setInterval(() => {
         acc3.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc3.channels.get(channel).send('#daily');
     }, 86403000);
@@ -110,7 +110,7 @@ acc4.on('ready', () => {
     acc4.channels.get(channel).send('#daily');
     setInterval(() => {
         acc4.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc4.channels.get(channel).send('#daily');
     }, 86403000);
@@ -136,7 +136,7 @@ acc5.on('ready', () => {
     acc5.channels.get(channel).send('#daily');
     setInterval(() => {
         acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc5.channels.get(channel).send('#daily');
     }, 86403000);
@@ -162,7 +162,7 @@ acc6.on('ready', () => {
     acc6.channels.get(channel).send('#daily');
     setInterval(() => {
         acc6.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc6.channels.get(channel).send('#daily');
     }, 86403000);
@@ -188,7 +188,7 @@ acc7.on('ready', () => {
     acc7.channels.get(channel).send('#daily');
     setInterval(() => {
         acc7.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc7.channels.get(channel).send('#daily');
     }, 86403000);
@@ -214,7 +214,7 @@ acc8.on('ready', () => {
     acc8.channels.get(channel).send('#daily');
     setInterval(() => {
         acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc8.channels.get(channel).send('#daily');
     }, 86403000);
@@ -240,7 +240,7 @@ acc9.on('ready', () => {
     acc9.channels.get(channel).send('#daily');
     setInterval(() => {
         acc9.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc9.channels.get(channel).send('#daily');
     }, 86403000);
@@ -266,7 +266,7 @@ acc10.on('ready', () => {
     acc10.channels.get(channel).send('#daily');
     setInterval(() => {
         acc10.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc10.channels.get(channel).send('#daily');
     }, 86403000);
@@ -292,7 +292,7 @@ acc11.on('ready', () => {
     acc11.channels.get(channel).send('#daily');
     setInterval(() => {
         acc11.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc11.channels.get(channel).send('#daily');
     }, 86403000);
@@ -318,7 +318,7 @@ acc12.on('ready', () => {
     acc12.channels.get(channel).send('#daily');
     setInterval(() => {
         acc12.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc12.channels.get(channel).send('#daily');
     }, 86403000);
@@ -344,7 +344,7 @@ acc13.on('ready', () => {
     acc13.channels.get(channel).send('#daily');
     setInterval(() => {
         acc13.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc13.channels.get(channel).send('#daily');
     }, 86403000);
@@ -370,7 +370,7 @@ acc14.on('ready', () => {
     acc14.channels.get(channel).send('#daily');
     setInterval(() => {
         acc14.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc14.channels.get(channel).send('#daily');
     }, 86403000);
@@ -396,7 +396,7 @@ acc15.on('ready', () => {
     acc15.channels.get(channel).send('#daily');
     setInterval(() => {
         acc15.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
-    }, 300);
+    }, 500);
     setInterval(() => {
        acc15.channels.get(channel).send('#daily');
     }, 86403000);
