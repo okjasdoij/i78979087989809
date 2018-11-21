@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const channel = '493482927649193994';
+const channelSpam = '493482927649193994';
 const pepole = ['282350776456839169','346629187504832513','333683114461102090'];
 const prefix = {
     acc1: '1',
@@ -305,7 +305,7 @@ const acc12 = new Discord.Client();
 acc12.on('ready', () => {
     console.log('Account 12 Ready!');
     setInterval(spam => {
-        acc12.guilds.find(g => g.id == '493482927649193994').channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc12.guilds.find(g => g.id == '493482927649193994').channels.find(c => c.id == channelSpam).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
        acc12.guilds.find(g => g.id == '493482927649193994').channels.find(c => c.id == channel).send('#daily');
