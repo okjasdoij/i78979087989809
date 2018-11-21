@@ -205,7 +205,7 @@ const acc8 = new Discord.Client();
 acc8.on('ready', () => {
     console.log('Account 8 Ready!');
     setInterval(() => {
-        acc1.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
+        acc8.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
        acc8.channels.find(c => c.id == channel).send('#daily');
