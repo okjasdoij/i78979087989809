@@ -29,7 +29,6 @@ const prefix = {
 const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
-    acc1.channels.get(channel).send('#daily');
     setInterval(() => {
         acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -55,7 +54,6 @@ acc1.login(process.env.ACC1_TOKEN);
 const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
-    acc2.channels.get(channel).send('#daily');
     setInterval(() => {
         acc2.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -81,7 +79,6 @@ acc2.login(process.env.ACC2_TOKEN);
 const acc3 = new Discord.Client();
 acc3.on('ready', () => {
     console.log('Account 3 Ready!');
-    acc3.channels.get(channel).send('#daily');
     setInterval(() => {
         acc3.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -107,7 +104,6 @@ acc3.login(process.env.ACC3_TOKEN);
 const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
-    acc4.channels.get(channel).send('#daily');
     setInterval(() => {
         acc4.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -133,7 +129,6 @@ acc4.login(process.env.ACC4_TOKEN);
 const acc5 = new Discord.Client();
 acc5.on('ready', () => {
     console.log('Account 5 Ready!');
-    acc5.channels.get(channel).send('#daily');
     setInterval(() => {
         acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -159,7 +154,6 @@ acc5.login(process.env.ACC5_TOKEN);
 const acc6 = new Discord.Client();
 acc6.on('ready', () => {
     console.log('Account 6 Ready!');
-    acc6.channels.get(channel).send('#daily');
     setInterval(() => {
         acc6.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -185,7 +179,6 @@ acc6.login(process.env.ACC6_TOKEN);
 const acc7 = new Discord.Client();
 acc7.on('ready', () => {
     console.log('Account 7 Ready!');
-    acc7.channels.get(channel).send('#daily');
     setInterval(() => {
         acc7.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -211,7 +204,6 @@ acc7.login(process.env.ACC7_TOKEN);
 const acc8 = new Discord.Client();
 acc8.on('ready', () => {
     console.log('Account 8 Ready!');
-    acc8.channels.get(channel).send('#daily');
     setInterval(() => {
         acc1.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -237,7 +229,6 @@ acc8.login(process.env.ACC8_TOKEN);
 const acc9 = new Discord.Client();
 acc9.on('ready', () => {
     console.log('Account 9 Ready!');
-    acc9.channels.get(channel).send('#daily');
     setInterval(() => {
         acc9.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -263,7 +254,6 @@ acc9.login(process.env.ACC9_TOKEN);
 const acc10 = new Discord.Client();
 acc10.on('ready', () => {
     console.log('Account 10 Ready!');
-    acc10.channels.get(channel).send('#daily');
     setInterval(() => {
         acc10.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -289,7 +279,6 @@ acc10.login(process.env.ACC10_TOKEN);
 const acc11 = new Discord.Client();
 acc11.on('ready', () => {
     console.log('Account 11 Ready!');
-    acc11.channels.get(channel).send('#daily');
     setInterval(() => {
         acc11.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -315,7 +304,6 @@ acc11.login(process.env.ACC11_TOKEN);
 const acc12 = new Discord.Client();
 acc12.on('ready', () => {
     console.log('Account 12 Ready!');
-    acc12.channels.get(channel).send('#daily');
     setInterval(() => {
         acc12.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -341,7 +329,6 @@ acc12.login(process.env.ACC12_TOKEN);
 const acc13 = new Discord.Client();
 acc13.on('ready', () => {
     console.log('Account 13 Ready!');
-    acc13.channels.get(channel).send('#daily');
     setInterval(() => {
         acc13.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -367,7 +354,6 @@ acc13.login(process.env.ACC13_TOKEN);
 const acc14 = new Discord.Client();
 acc14.on('ready', () => {
     console.log('Account 14 Ready!');
-    acc14.channels.get(channel).send('#daily');
     setInterval(() => {
         acc14.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -393,7 +379,6 @@ acc14.login(process.env.ACC14_TOKEN);
 const acc15 = new Discord.Client();
 acc15.on('ready', () => {
     console.log('Account 15 Ready!');
-    acc15.channels.get(channel).send('#daily');
     setInterval(() => {
         acc15.channels.get(channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
