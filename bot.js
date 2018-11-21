@@ -308,7 +308,7 @@ acc12.on('ready', () => {
         acc12.guilds.find(g => g.id == '493180656126394390').channels.find(c => c.id == channelSpam).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
     setInterval(() => {
-       acc12.guilds.find(g => g.id == '493180656126394390').channels.find(c => c.id == channel).send('#daily');
+       acc12.guilds.find(g => g.id == '493180656126394390').channels.find(c => c.id == channelSpam).send('#daily');
     }, 86403000);
 });
 acc12.on('message', message => {
