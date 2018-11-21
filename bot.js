@@ -382,7 +382,7 @@ acc14.login(process.env.ACC14_TOKEN);
 
 const acc16 = new Discord.Client();
 acc16.on('ready', () => {
-    console.log('Account 16 Ready!');
+    console.log('Account 15 Ready!');
     setInterval(() => {
         acc16.channels.find(c => c.id == channel).send('**Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dream**');
     }, 500);
@@ -401,4 +401,4 @@ acc16.on('message', message => {
         message.channel.send(message.content.split(' ').slice(1).join(' '));
     }
 });
-acc16.login(process.env.ACC16_TOKEN);
+acc16.login(process.env.ACC15_TOKEN);
