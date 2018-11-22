@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const channel = '493482927649193994';
 const pepole = ['282350776456839169','346629187504832513'];
 const randomWords = ['Fuck Off ..','Dream, Dream ..','**Azoze** Is King ،، !','What you want?! ..','Dont Look at Me .!','Fuck You.','Hey Bitch!','Abode :v:','WHAT YOU NEED **BITCH**?! .','Hahahaha.. You are Funny.','Go out mother fuck!','Sleep With me \:('];
-const random = randomWords[Math.floor(Math.random() * randomWords.length)];
+const randomNumber = Math.floor(Math.random() * randomWords.length);
+const random = randomWords[randomNumber];
 const prefix = {
     acc1: '1',
     acc2: '2',
