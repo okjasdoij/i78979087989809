@@ -20,10 +20,8 @@ const prefix = {
 const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc1.channels.find(c => c.id == channel).send(random);
+        acc1.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc1.channels.find(c => c.id == channel).send('#daily');
@@ -47,10 +45,8 @@ acc1.login(process.env.ACC1_TOKEN);
 const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc2.channels.find(c => c.id == channel).send(random);
+        acc2.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc2.channels.find(c => c.id == channel).send('#daily');
@@ -74,10 +70,8 @@ acc2.login(process.env.ACC2_TOKEN);
 const acc3 = new Discord.Client();
 acc3.on('ready', () => {
     console.log('Account 3 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc3.channels.find(c => c.id == channel).send(random);
+        acc3.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc3.channels.find(c => c.id == channel).send('#daily');
@@ -101,10 +95,8 @@ acc3.login(process.env.ACC3_TOKEN);
 const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc4.channels.find(c => c.id == channel).send(random);
+        acc4.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc4.channels.find(c => c.id == channel).send('#daily');
@@ -128,10 +120,8 @@ acc4.login(process.env.ACC4_TOKEN);
 const acc5 = new Discord.Client();
 acc5.on('ready', () => {
     console.log('Account 5 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc5.channels.find(c => c.id == channel).send(random);
+        acc5.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc5.channels.find(c => c.id == channel).send('#daily');
@@ -155,10 +145,8 @@ acc5.login(process.env.ACC5_TOKEN);
 const acc6 = new Discord.Client();
 acc6.on('ready', () => {
     console.log('Account 6 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc6.channels.find(c => c.id == channel).send(random);
+        acc6.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc6.channels.find(c => c.id == channel).send('#daily');
@@ -182,10 +170,8 @@ acc6.login(process.env.ACC6_TOKEN);
 const acc7 = new Discord.Client();
 acc7.on('ready', () => {
     console.log('Account 7 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc7.channels.find(c => c.id == channel).send(random);
+        acc7.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc7.channels.find(c => c.id == channel).send('#daily');
@@ -209,10 +195,8 @@ acc7.login(process.env.ACC7_TOKEN);
 const acc8 = new Discord.Client();
 acc8.on('ready', () => {
     console.log('Account 8 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc8.channels.find(c => c.id == channel).send(random);
+        acc8.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc8.channels.find(c => c.id == channel).send('#daily');
@@ -236,10 +220,8 @@ acc8.login(process.env.ACC8_TOKEN);
 const acc9 = new Discord.Client();
 acc9.on('ready', () => {
     console.log('Account 9 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc9.channels.find(c => c.id == channel).send(random);
+        acc9.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc9.channels.find(c => c.id == channel).send('#daily');
@@ -263,10 +245,8 @@ acc9.login(process.env.ACC9_TOKEN);
 const acc10 = new Discord.Client();
 acc10.on('ready', () => {
     console.log('Account 10 Ready!');
-    var randomNumber = Math.floor(Math.random() * randomWords.length);
-    var random = randomWords[randomNumber];
     setInterval(() => {
-        acc10.channels.find(c => c.id == channel).send(random);
+        acc10.channels.find(c => c.id == channel).send(randomWords[Math.floor(Math.random() * randomWords.length)]);
     }, 500);
     setInterval(() => {
        acc10.channels.find(c => c.id == channel).send('#daily');
