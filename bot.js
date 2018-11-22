@@ -20,6 +20,8 @@ const prefix = {
 const acc1 = new Discord.Client();
 acc1.on('ready', () => {
     console.log('Account 1 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc1.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -29,8 +31,6 @@ acc1.on('ready', () => {
 });
 acc1.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc1 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -47,6 +47,8 @@ acc1.login(process.env.ACC1_TOKEN);
 const acc2 = new Discord.Client();
 acc2.on('ready', () => {
     console.log('Account 2 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc2.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -56,8 +58,6 @@ acc2.on('ready', () => {
 });
 acc2.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc2 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -74,6 +74,8 @@ acc2.login(process.env.ACC2_TOKEN);
 const acc3 = new Discord.Client();
 acc3.on('ready', () => {
     console.log('Account 3 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc3.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -83,8 +85,6 @@ acc3.on('ready', () => {
 });
 acc3.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc3 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -101,6 +101,8 @@ acc3.login(process.env.ACC3_TOKEN);
 const acc4 = new Discord.Client();
 acc4.on('ready', () => {
     console.log('Account 4 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc4.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -110,8 +112,6 @@ acc4.on('ready', () => {
 });
 acc4.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc4 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -128,6 +128,8 @@ acc4.login(process.env.ACC4_TOKEN);
 const acc5 = new Discord.Client();
 acc5.on('ready', () => {
     console.log('Account 5 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc5.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -137,8 +139,6 @@ acc5.on('ready', () => {
 });
 acc5.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc5 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -155,6 +155,8 @@ acc5.login(process.env.ACC5_TOKEN);
 const acc6 = new Discord.Client();
 acc6.on('ready', () => {
     console.log('Account 6 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc6.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -164,8 +166,6 @@ acc6.on('ready', () => {
 });
 acc6.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc6 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -182,6 +182,8 @@ acc6.login(process.env.ACC6_TOKEN);
 const acc7 = new Discord.Client();
 acc7.on('ready', () => {
     console.log('Account 7 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc7.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -191,8 +193,6 @@ acc7.on('ready', () => {
 });
 acc7.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc7 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -209,6 +209,8 @@ acc7.login(process.env.ACC7_TOKEN);
 const acc8 = new Discord.Client();
 acc8.on('ready', () => {
     console.log('Account 8 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc8.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -218,8 +220,6 @@ acc8.on('ready', () => {
 });
 acc8.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc8 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -236,6 +236,8 @@ acc8.login(process.env.ACC8_TOKEN);
 const acc9 = new Discord.Client();
 acc9.on('ready', () => {
     console.log('Account 9 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc9.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -245,8 +247,6 @@ acc9.on('ready', () => {
 });
 acc9.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc9 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
@@ -263,6 +263,8 @@ acc9.login(process.env.ACC9_TOKEN);
 const acc10 = new Discord.Client();
 acc10.on('ready', () => {
     console.log('Account 10 Ready!');
+    const randomNumber = Math.floor(Math.random() * randomWords.length);
+    const random = randomWords[randomNumber];
     setInterval(() => {
         acc10.channels.find(c => c.id == channel).send(random);
     }, 500);
@@ -272,8 +274,6 @@ acc10.on('ready', () => {
 });
 acc10.on('message', message => {
     if(!pepole.includes(message.author.id)) return;
-    const randomNumber = Math.floor(Math.random() * randomWords.length);
-    const random = randomWords[randomNumber];
     if(message.content.toLowerCase().split(' ')[0] == prefix.acc10 + 'say') {
         if(!message.content.split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.split(' ').slice(1).join(' '));
